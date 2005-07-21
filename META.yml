@@ -1,0 +1,10 @@
+---
+name: Test-AutoLoader
+version: 0.02
+license: gpl
+requires:
+  File::Spec: 0
+  Test::Builder: 0
+build_requires:
+  Test::Pod: 0.95
+  Test::Tester: 0.08
