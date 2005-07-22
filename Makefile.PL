@@ -7,5 +7,5 @@ WriteMakefile(
     'PREREQ_PM'		=> {Test::Builder=>0},
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'AutoLoader.pm', # retrieve abstract from module
-       AUTHOR     => 'A. U. Thor <a.u.thor@a.galaxy.far.far.away>') : ()),
+       AUTHOR     => 'Ben Warfield <ben_warfield@nrgn.com>') : ()),
 );

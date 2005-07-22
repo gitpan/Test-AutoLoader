@@ -10,7 +10,7 @@ use File::Spec;
 use Test::Builder;
 
 our @EXPORT = ('autoload_ok');
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Lifted fairly directly from AutoLoader.pm
 my ($is_dosish, $is_epoc,$is_vms, $is_macos);

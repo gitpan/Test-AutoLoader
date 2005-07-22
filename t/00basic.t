@@ -69,7 +69,7 @@ foreach my $test (@tests) {
 }
 
 if ($CAN_CHMOD) {
-    chmod 0700, @unreadable or warn "Couldn't chmod @unreadable back: $!\n";
+    chmod 0755, @unreadable or warn "Couldn't chmod @unreadable back: $!\n";
 } else {
   SKIP:{skip "Couldn't set up unreadable directory for test",5}
 }
